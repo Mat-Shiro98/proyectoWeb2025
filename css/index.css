@@ -1,0 +1,128 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-image: url('../img/fondo.png'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+    background-attachment: fixed; /* Mantén la imagen fija cuando se hace scroll */
+    background-position: center; /* Centra la imagen en la pantalla */
+}
+
+/* Estilos del header */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    width:100vw;
+    padding: 10px 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Espacio entre el logo y el menú */
+    align-items: center; /* Centrar verticalmente */
+    max-width: 1200px; /* Ajusta según sea necesario */
+    margin: 0 auto; /* Centrar el contenido */
+    padding: 0 20px; /* Margen interior */
+}
+
+.logo img {
+    max-height: 50px; /* Ajusta la altura del logo */
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Sección "Sobre mí" */
+#about {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+    
+}
+
+/* Sección de Proyectos */
+#projects {
+    padding: 20px;
+    background: #fff;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección de Contacto */
+#contact {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+
+}
